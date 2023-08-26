@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+<button onclick="opengame()">open game</button>
+<script>
+function opengame() {
+var win = window.open()
+var url = "Your website here"
+var iframe = win.document.createElement('iframe')
+iframe.style.width = "100%";
+iframe.style.length = "100%";
+iframe.style.border = "none";
+win.document.body.appendchild(iframe)
+}
+</script>
+</body>
+</html>
